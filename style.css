@@ -1,0 +1,203 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*imagen del logo sección 2*/
+.imglogo{
+	width: 10%;
+	display:block;
+	margin:auto;
+	padding-top: 10%;
+	}
+
+header{
+	width: 100%;
+	background-color: rgba(0,0,0,.2);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+
+header ul{
+	text-align: center;
+}
+
+header ul li{
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+header ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 600;
+	padding: 25px;
+}
+
+header ul li a:hover{
+	text-decoration: none;
+    color:black;
+}
+h1{
+	text-align: center;
+	color:white;
+	font-size: 100px;
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* este es el texto basura de todas las secciones */
+.lorem{
+	text-align: center;
+	color:white;
+	font-size: 50px;
+	padding: 10%;
+	-webkit-text-stroke: 1px black;
+}
+
+
+#fondo{
+
+	background-image: url("./imagenes/hgp.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	align-items: center;
+	width: 100%;
+	height: 550px;
+}
+
+#contenedor{
+	background-image: url("./imagenes/BGB.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 1000px;
+
+}
+
+#caja{
+	width: 70%;
+	height: 800px;
+	margin: auto;
+	max-width: 1000px;
+	padding: 80px;
+	justify-content: center;
+	align-items: center;
+}
+
+.caja img{
+	width: 100%;
+	height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor2{
+	background-image: url("./imagenes/bgam.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 1000px;
+	justify-content: center;
+	align-items: center;
+	margin-right:auto
+	
+}
+
+
+.carousel{
+	width: 80%;
+	display:block;
+	margin:auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+#caja2{
+	width: 960px;
+	height: 800px;
+	margin: auto;
+}
+
+
+#contenedor3{
+	background-image:url("./imagenes/BGB5.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 1000px;
+	
+}
+
+#footercontenedor{
+	background-color: rgba(20,26,33,1.00);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100px;
+	
+}
+
+#social {
+    background-color: rgba(12,15,22,1.00);
+    padding: 2em 1em;
+}
+#social ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3.5em;
+}
+#social ul li {
+    padding: .3em;
+}
+#social ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#social ul li a:hover {
+    text-decoration: none;
+    color:rgba(237,170,23,1.00);
+}
+
+#contacto{
+	background-image:url("./imagenes/BGR7.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 800px;
+	
+}
+
+
+
